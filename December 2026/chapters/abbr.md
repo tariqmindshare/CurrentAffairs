@@ -1,0 +1,6 @@
+- APEC : Asia-Pacific Economic Cooperation
+- CCPI : Climate Change Performance Index
+- CPD : Centre for Policy Dialogue
+- CHOGM : Commonwealth Heads of Government Meeting
+- JETRO : Japan External Trade Organization
+- OIC : Organisation of Islamic Cooperation
