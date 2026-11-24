@@ -12,9 +12,29 @@
       "occurrence": 1,
       "text": "**আন্তর্জাতিক ♦ ২৮ অক্টোবর ২০২৬**\n\n- স্পেনে দুটি দ্রুতগতির ট্রেনের সংঘর্ষে অন্তত ৬৯ জন নিহত হন।\n- মেজর লিগ বেসবলের ওয়ার্ল্ড সিরিজে প্রথমবার শিরোপা জেতে মিলওয়াকি ব্রুয়ার্স।",
       "instruction": "Change this two international news here and give 1 new important news here",
-      "status": "pending",
+      "status": "applied",
       "createdAt": "2026-11-24T05:04:21.169Z",
-      "by": "admin"
+      "by": "admin",
+      "result": "২৮ অক্টোবরের দুটি আন্তর্জাতিক সংবাদের বদলে জাতিসংঘ সাধারণ পরিষদে কিউবার ওপর মার্কিন অবরোধবিরোধী প্রস্তাব পাসের (১৩০-১৭-২৫) সংবাদ যোগ",
+      "appliedAt": "2026-11-24T05:13:11.833Z"
+    },
+    {
+      "id": "e_mwu8rsmiez9kh",
+      "type": "instruction",
+      "scope": "chapter",
+      "issue": "2026-12",
+      "source": "December 2026/December 2026 - Full Book.md",
+      "chapter": "তথ্যপ্রবাহ",
+      "blockId": "cffa7c597",
+      "kind": "chapter",
+      "occurrence": 1,
+      "text": "# তথ্যপ্রবাহ",
+      "instruction": "There is no Bangladesh part for 28 and 29 October, add Bangladesh part",
+      "status": "applied",
+      "createdAt": "2026-11-24T05:16:03.882Z",
+      "by": "admin",
+      "result": "তথ্যপ্রবাহে ২৮ অক্টোবর (JETRO-তে বাংলাদেশ-জাপান ইকোনমিক ফোরামে প্রধানমন্ত্রীর বক্তব্য) ও ২৯ অক্টোবর (এশিয়া কাপ আর্চারিতে রিকার্ভ পুরুষ দলগত সোনা) বাংলাদেশ অংশ যোগ ও উৎস যুক্ত",
+      "appliedAt": "2026-11-24T05:17:27.198Z"
     }
   ]
 }
