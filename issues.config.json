@@ -1,0 +1,27 @@
+{
+  "siteTitle": "কারেন্ট অ্যাফেয়ার্স",
+  "siteTagline": "চাকরি ও ভর্তি পরীক্ষার্থীদের মাসিক ম্যাগাজিন",
+  "repo": "tariqmindshare/CurrentAffairs",
+  "issues": [
+    {
+      "id": "2026-12",
+      "month": "ডিসেম্বর ২০২৬",
+      "folder": "December 2026",
+      "source": "December 2026/December 2026 - Full Book.md",
+      "pdfs": []
+    },
+    {
+      "id": "2026-11",
+      "month": "নভেম্বর ২০২৬",
+      "folder": "November 2026",
+      "source": "November 2026/November 2026 - Full Book (p3-97) - OCR.md",
+      "pdfs": [
+        { "label": "পর্ব ১ (পৃ. ১-২০)", "path": "November 2026/কারেন্ট_অ্যাফেয়ার্স_নভেম্বর_২০২৬ [boimate.com] - Part 01 (p1-20).pdf" },
+        { "label": "পর্ব ২ (পৃ. ২১-৪০)", "path": "November 2026/কারেন্ট_অ্যাফেয়ার্স_নভেম্বর_২০২৬ [boimate.com] - Part 02 (p21-40).pdf" },
+        { "label": "পর্ব ৩ (পৃ. ৪১-৬০)", "path": "November 2026/কারেন্ট_অ্যাফেয়ার্স_নভেম্বর_২০২৬ [boimate.com] - Part 03 (p41-60).pdf" },
+        { "label": "পর্ব ৪ (পৃ. ৬১-৮০)", "path": "November 2026/কারেন্ট_অ্যাফেয়ার্স_নভেম্বর_২০২৬ [boimate.com] - Part 04 (p61-80).pdf" },
+        { "label": "পর্ব ৫ (পৃ. ৮১-৯৭)", "path": "November 2026/কারেন্ট_অ্যাফেয়ার্স_নভেম্বর_২০২৬ [boimate.com] - Part 05 (p81-97).pdf" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>অ্যাডমিন লগইন • কারেন্ট অ্যাফেয়ার্স</title>
+<meta name="robots" content="noindex">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&family=Noto+Serif+Bengali:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body data-root="" data-page="login">
+<div class="top">
+  <a class="brand" href="index.html">কারেন্ট অ্যাফেয়ার্স</a>
+  <span class="sp"></span>
+  <a class="nav" href="archive.html">📚 সব সংখ্যা</a>
+</div>
+<form class="login" id="loginForm" autocomplete="on">
+  <h1>অ্যাডমিন লগইন</h1>
+  <p id="loginMode">লগইন করলে প্রতিটি অংশের নিচে নির্দেশনা ও মুছে ফেলার অপশন দেখা যাবে।</p>
+  <label for="u">ইউজারনেম</label>
+  <input id="u" name="username" autocomplete="username" required>
+  <label for="pw">পাসওয়ার্ড</label>
+  <input id="pw" name="password" type="password" autocomplete="current-password" required>
+  <button type="submit">লগইন</button>
+  <div class="err" id="err" role="alert"></div>
+</form>
+<script src="assets/admin.js"></script>
+</body>
+</html>

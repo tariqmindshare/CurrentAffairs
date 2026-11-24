@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "salt": "2475b46625c3908d87a13c289637085a",
+      "iterations": 100000,
+      "hash": "f5b6d7e4eb70a0bb725eee270cfa6d4448fb4212ae7a132edda85c4ae3be33c6"
+    }
+  ]
+}

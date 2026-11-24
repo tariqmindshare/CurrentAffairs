@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-11-24T04:30:46.167Z",
+  "repo": "tariqmindshare/CurrentAffairs",
+  "issues": [
+    {
+      "id": "2026-12",
+      "month": "ডিসেম্বর ২০২৬",
+      "title": "কারেন্ট অ্যাফেয়ার্স ডাইজেস্ট • ডিসেম্বর ২০২৬",
+      "titleShort": "কারেন্ট অ্যাফেয়ার্স ডাইজেস্ট",
+      "url": "issues/2026-12/",
+      "source": "December 2026/December 2026 - Full Book.md",
+      "chapters": 47,
+      "pages": 95,
+      "items": 1588,
+      "highlights": [
+        "রোহিঙ্গা গণহত্যা মামলার রায়",
+        "তথ্যপ্রবাহ",
+        "সাম্প্রতিক বিষয়ের MCQ",
+        "সাম্প্রতিক প্রশ্নোত্তর"
+      ],
+      "latest": true
+    },
+    {
+      "id": "2026-11",
+      "month": "নভেম্বর ২০২৬",
+      "title": "প্রফেসর'স কারেন্ট অ্যাফেয়ার্স • নভেম্বর ২০২৬",
+      "titleShort": "প্রফেসর'স কারেন্ট অ্যাফেয়ার্স",
+      "url": "issues/2026-11/",
+      "source": "November 2026/November 2026 - Full Book (p3-97) - OCR.md",
+      "chapters": 52,
+      "pages": 95,
+      "items": 2294,
+      "highlights": [
+        "লিওনেল মেসি",
+        "তথ্যপ্রবাহ",
+        "সাম্প্রতিক বিষয়ের MCQ",
+        "সাম্প্রতিক প্রশ্নোত্তর"
+      ],
+      "latest": false
+    }
+  ]
+}
