@@ -48,7 +48,7 @@ function runClaude() {
   if (job.running) return false;
   Object.assign(job, { running: true, log: '', startedAt: new Date().toISOString(), endedAt: null, code: null });
   const args = ['-p', '--permission-mode', 'acceptEdits', '--allowedTools',
-    'Read,Edit,Write,Grep,Glob,Bash(node tools/apply-edits.mjs:*),Bash(node tools/build.mjs:*)'];
+    'Read,Edit,Write,Grep,Glob,WebSearch,WebFetch,Bash(node tools/apply-edits.mjs:*),Bash(node tools/build.mjs:*)'];
   let child;
   try {
     child = spawn(process.env.CLAUDE_BIN || 'claude', args, { cwd: ROOT, stdio: ['pipe', 'pipe', 'pipe'] });

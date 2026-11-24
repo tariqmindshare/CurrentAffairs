@@ -356,14 +356,27 @@
     const j = await r.json().catch(() => ({}));
     if (!j.started) { toast(j.message || 'Claude চালু করা যায়নি (আগে থেকেই চলছে?)', 4000); btn.disabled = false; return; }
     toast('Claude কাজ শুরু করেছে…');
+    const head = (st) => {
+      if (st.running) return '⏳ চলছে…\n';
+      if (st.code === 0) return '✓ সফলভাবে শেষ হয়েছে\n';
+      let h = `✗ ব্যর্থ (exit code ${st.code})\n`;
+      if (/auth|login|token|401/i.test(st.log || '')) {
+        h += '→ এই কম্পিউটারে Claude Code CLI লগইন করা নেই বা লগইনের মেয়াদ শেষ। টার্মিনালে "claude auth login" চালান, তারপর আবার চেষ্টা করুন।\n';
+      }
+      return h + '\n';
+    };
     const poll = async () => {
       const st = await (await fetch(ROOT + 'api/status', { headers: H() })).json();
-      renderPanel((st.running ? '⏳ চলছে…\n' : `✓ শেষ (code ${st.code})\n`) + (st.log || '').slice(-3000));
+      renderPanel(head(st) + (st.log || '').slice(-3000));
       if (st.running) return setTimeout(poll, 3000);
       await loadQueue();
       paint();
-      renderPanel(`✓ শেষ (code ${st.code})\n` + (st.log || '').slice(-3000));
-      if (confirm('Claude কাজ শেষ করেছে। হালনাগাদ পেজ দেখতে রিলোড করবেন?')) location.reload();
+      renderPanel(head(st) + (st.log || '').slice(-3000));
+      if (st.code === 0) {
+        if (confirm('Claude কাজ শেষ করেছে। হালনাগাদ পেজ দেখতে রিলোড করবেন?')) location.reload();
+      } else {
+        toast('Claude চালানো ব্যর্থ হয়েছে — বিস্তারিত সম্পাদনা তালিকায় দেখুন', 5000);
+      }
     };
     poll();
   }

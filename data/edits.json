@@ -1,3 +1,20 @@
 {
-  "edits": []
+  "edits": [
+    {
+      "id": "e_mwu8cqepks88h",
+      "type": "instruction",
+      "scope": "item",
+      "issue": "2026-12",
+      "source": "December 2026/December 2026 - Full Book.md",
+      "chapter": "তথ্যপ্রবাহ",
+      "blockId": "b6a8cdb37",
+      "kind": "news",
+      "occurrence": 1,
+      "text": "**আন্তর্জাতিক ♦ ২৮ অক্টোবর ২০২৬**\n\n- স্পেনে দুটি দ্রুতগতির ট্রেনের সংঘর্ষে অন্তত ৬৯ জন নিহত হন।\n- মেজর লিগ বেসবলের ওয়ার্ল্ড সিরিজে প্রথমবার শিরোপা জেতে মিলওয়াকি ব্রুয়ার্স।",
+      "instruction": "Change this two international news here and give 1 new important news here",
+      "status": "pending",
+      "createdAt": "2026-11-24T05:04:21.169Z",
+      "by": "admin"
+    }
+  ]
 }

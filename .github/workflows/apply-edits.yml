@@ -46,7 +46,7 @@ jobs:
           awk '/^---$/ && n<2 {n++; next} n>=2' .claude/commands/apply-edits.md > /tmp/prompt.md
           npx -y @anthropic-ai/claude-code -p "$(cat /tmp/prompt.md)" \
             --permission-mode acceptEdits \
-            --allowedTools "Read,Edit,Write,Grep,Glob,Bash(node tools/apply-edits.mjs:*),Bash(node tools/build.mjs:*)"
+            --allowedTools "Read,Edit,Write,Grep,Glob,WebSearch,WebFetch,Bash(node tools/apply-edits.mjs:*),Bash(node tools/build.mjs:*)"
           node tools/build.mjs
 
       - name: Commit changes
